@@ -17,8 +17,7 @@ import time
 
 class PageCrawler:
     # 생성자 init : 초기 연결 및 기타 설정
-    def __init__(self, driver_path):
-        service = Service(executable_path=driver_path)
+    def __init__(self):
         self.driver = webdriver.Chrome()
         self.base_url = "https://jumpit.saramin.co.kr"
 

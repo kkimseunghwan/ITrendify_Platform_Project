@@ -19,7 +19,7 @@ pageCrawler = PageCrawler("C:\\Users\\soldesk\\Downloads\\chrome-win64\\chrome-w
 # # Chrome 브라우저 열기
 # driver = webdriver.Chrome()
 
-# # 구글 페이지 연결시키기
+# 구글 페이지 연결시키기
 # driver.get("https://google.com")
 
 print(pageCrawler.parse_JobDetail("https://jumpit.saramin.co.kr/position/49621"))
